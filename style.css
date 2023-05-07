@@ -1,0 +1,120 @@
+/* Allgemeine Formatierung */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fff;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #3498db;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  header img {
+    max-width: 150px;
+    margin-left: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  p, span {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  /* Stil der Sterne */
+  .stars {
+    font-size: 20px;
+    color: #f1c40f;
+  }
+  
+  .stars::before {
+    content: "\2605";
+  }
+  
+  /* Stil des Bildes */
+  header img {
+    display: block;
+    margin-right: 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  }
+  
+  /* Farben */
+  body {
+    color: #333;
+    background-color: #fff;
+  }
+  
+  .container {
+    background-color: #fff;
+    border: 2px solid #3498db;
+  }
+  
+  header {
+    border-bottom: 2px solid #3498db;
+  }
+  
+  h1 {
+    color: #3498db;
+  }
+  
+  .stars {
+    color: #f1c40f;
+  }
+  
+  /* Medienabfragen */
+  @media (max-width: 600px) {
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    header img {
+      margin: 10px 0 0;
+    }
+  }
+  

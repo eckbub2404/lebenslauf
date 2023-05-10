@@ -1,13 +1,13 @@
 /* Allgemeine Formatierung */
-
 {
 box-sizing: border-box;
 }
+
 body {
 margin: 0;
 padding: 0;
 font-family: 'Times New Roman', Times, serif;
-color: #333;
+color: #000;
 background-color: #fff;
 }
 
@@ -31,7 +31,7 @@ h1 {
 font-size: 32px;
 font-weight: bold;
 margin: 0;
-color: #3498db; /* geändert von black auf #3498db */
+color: #3498db;
 text-transform: uppercase;
 font-family: 'Times New Roman', Times, serif;
 }
@@ -39,7 +39,7 @@ font-family: 'Times New Roman', Times, serif;
 h2 {
 font-size: 24px;
 margin-bottom: 10px;
-color: #000080; /* geändert von black auf dunkelblau */
+color: #000080;
 text-transform: uppercase;
 font-family: 'Times New Roman', Times, serif;
 }
@@ -70,7 +70,7 @@ h3 {
 font-size: 18px;
 margin-bottom: 5px;
 font-weight: bold;
-color: #000080; /* geändert von black auf dunkelblau */
+color: #000080;
 font-family: 'Times New Roman', Times, serif;
 }
 
@@ -78,7 +78,7 @@ p,
 span {
 font-size: 16px;
 margin: 0;
-color: #000080; /* geändert von black auf dunkelblau */
+color: #000;
 font-family: 'Times New Roman', Times, serif;
 }
 
@@ -92,9 +92,9 @@ color: #f1c40f;
 content: "\2605";
 }
 
-/* Farben /
+/* Farben */
 body {
-color: #000080; / geändert von #333 auf dunkelblau */
+color: #000;
 background-color: #fff;
 }
 
@@ -141,3 +141,4 @@ font-family: 'Times New Roman', Times, serif;
 font-size: 16px;
 font-weight: bold;
 text-align: center;
+}
